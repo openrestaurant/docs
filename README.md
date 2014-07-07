@@ -1,4 +1,4 @@
-restaurant-documentation
-========================
+# Restaurant Documentation
 
-Documentation for the Restaurant Distribution.
+This is the initial commit for the Restaurant Documentation.
+

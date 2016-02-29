@@ -1,0 +1,6 @@
+site_name: Open Restaurant documentation
+theme: readthedocs
+repo_url: https://github.com/openrestaurant/docs
+include_search: true
+pages:
+- Home: index.md

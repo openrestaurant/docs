@@ -1,0 +1,1 @@
+The Open Restaurant distribution has everything you need to kickstart your restaurant website. It comes with a menu management system, a reservation system, a customizable blog, events management and a responsive theme.

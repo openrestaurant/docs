@@ -5,3 +5,4 @@ include_search: true
 pages:
 - Home: index.md
 - Installation: installation.md
+- Theming: theming.md

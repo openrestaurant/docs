@@ -2,6 +2,8 @@
 
 This is the documentation for the [Open Restaurant](http://open.restaurant).
 
+[![Documentation Status](https://readthedocs.org/projects/openrestaurant/badge/?version=latest)](http://docs.open.restaurant/en/latest/?badge=latest)
+
 # How to contribute
 
 1. Fork this repository.

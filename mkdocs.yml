@@ -1,4 +1,4 @@
-site_name: Open Restaurant documentation
+site_name: Open Restaurant 2.x.x
 theme: readthedocs
 repo_url: https://github.com/openrestaurant/docs
 include_search: true

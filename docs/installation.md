@@ -1,22 +1,23 @@
-## Installing Open Restaurant on your server
+# Requirements
 
-**Step 1:** Download and extract Open Restaurant from Drupal.org at [http://drupal.org/project/restaurant](http://drupal.org/project/restaurant).
+**Database**
+MySQL 5.5.3/MariaDB 5.5.20/Percona Server 5.5.8 or higher with PDO and an InnoDB-compatible primary storage engine.
 
-**Step 2:** Point your browser to the Open Restaurant installation.
+**PHP**
+PHP 5.5.9 or higher (PHP 7+ recommended)
 
-**Step 3:** Follow the steps provided by the installation wizard.
+# Installation
 
-Two types of installation are available.
+**Step 1:** Download and extract Open Restaurant from Drupal.org at [http://drupal.org/project/openrestaurant](http://drupal.org/project/openrestaurant).
 
-1. If you want to select which features to enable for your site, select the **standard** installation (slower but recommended).
-2. The **demo** installation (quicker) will install the site exactly as the demo site at http://dev-demo-openrestaurant.pantheon.io.
+Download Open Restaurant from the download links below.
+From the command line, go to the root your Open Restaurant directory and run the following commands:
 
-Note: If your **standard** installation is stuck, try to run it again and uncheck the **Install demo content** checkbox. You can install demo content later when the installation completes (see the section on how to install demo content).
+**Step 2:** From the command line, go to the root your Open Restaurant directory and run the following commands:
 
-## Installing Open Restaurant on Pantheon.
+```
+composer require commerceguys/addressing
+composer require commerceguys/zone
+```
 
-The quickest way to spin an Open Restaurant website is on Pantheon.
-
-**Step 1:** Visit https://dashboard.pantheon.io/products/openrestaurant/spinup and fill in the form to spin a new Open Restaurant site.
-
-**Step 2:** Once the site is created, you will be redirected to the Pantheon Dashboard. Click on **Visit development site** and follow the steps provided by the wizard to install Open Restaurant.
+**Step 3:** You can now proceed with the installation by visiting http://example.com.

@@ -20,4 +20,4 @@ composer require commerceguys/addressing
 composer require commerceguys/zone
 ```
 
-**Step 3:** You can now proceed with the installation by visiting http://example.com.
+**Step 3:** You may now proceed with the installation by visiting http://example.com.

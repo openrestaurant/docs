@@ -8,14 +8,12 @@ PHP 5.5.9 or higher (PHP 7+ recommended)
 
 # Installation
 
-**Step 1:** Download and extract Open Restaurant from Drupal.org at [http://drupal.org/project/openrestaurant](http://drupal.org/project/openrestaurant).
+We highly recommend using [http://getcomposer.org](Composer) to install your Open Restaurant codebase.
 
-**Step 2:** From the command line, go to the root your Open Restaurant directory and run the following commands:
+Use the following command to create a new Open Restaurant project:
 
 ```
-composer require commerceguys/addressing
-composer require commerceguys/zone
-composer require commerceguys/intl
+composer create-project openrestaurant/openrestaurant-project myrestaurant --stability dev
 ```
 
-**Step 3:** You may now proceed with the installation by visiting http://example.com.
+Composer will pull in the openrestaurant profile and all required dependencies. A docroot directory will be created and the Drupal code will be placed there. You can then install it like you would any other Drupal site.

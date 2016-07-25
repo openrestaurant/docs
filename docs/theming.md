@@ -7,7 +7,7 @@ You can use the Open Restaurant Radix kit as a starting point for your subtheme.
 ### Dependencies
 
 1. [Drush](http://drush.org)
-2. Node and npm (https://nodejs.org)
+2. [Node](https://nodejs.org)
 
 ## Steps
 

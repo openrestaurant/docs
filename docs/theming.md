@@ -1,15 +1,13 @@
-# Theming
-
 How to create a custom Open Restaurant subtheme.
 
 You can use the Open Restaurant Radix kit as a starting point for your subtheme. Follow the steps below to create the subtheme.
 
-### Dependencies
+### Requirements
 
 1. [Drush](http://drush.org)
 2. [Node](https://nodejs.org)
 
-## Steps
+## Create a subtheme
 
 1. Make sure the Radix theme is enabled: `drush en radix -y; drush config-set system.theme default radix -y`.
 2. Create a subtheme using the command: `drush radix SUBTHEME_NAME --kit=https://github.com/openrestaurant/radix-kit-openrestaurant/archive/master.zip`.

@@ -1,8 +1,13 @@
 /**
  * Custom styles.
  */
-.wy-nav-content-wrap {
-  background: #fcfcfc;
+body.wy-body-for-nav {
+  font-size: 100%;
+}
+
+.wy-nav-content-wrap,
+.wy-nav-content {
+  background: white;
 }
 .wy-side-nav-search,
 .wy-nav-top {
@@ -22,4 +27,14 @@
   .rst-versions {
     width: 70%;
   }
+}
+
+code {
+  font-size: 100%;
+  color: black;
+  background: #f5f5f5;
+}
+
+ol li {
+  margin-bottom: 0.5em;
 }

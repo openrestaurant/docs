@@ -8,7 +8,6 @@ Want to help us test it? See the installation guide below.
 
 1. **Menu management** - A powerful management system for creating menus, uploading menu pictures, and categorization. Support for nutrition information, menu types and prices included.
 2. **Locations** - Manage multiple restaurant locations from one dashboard. Create unique menus, address and opening hours for each location.
-3. **Reservation System** - A simple reservation system and calendar is included.
-4. **Events and Calendar** - Create and manage events for your restaurant.
+4. **Events** - Create and manage events for your restaurant.
 5. **Blog** - The distribution comes with a blog/news system that you can easily customize.
 6. **Responsive theme** - Works on all your devices.

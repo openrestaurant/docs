@@ -13,7 +13,7 @@ We highly recommend using [http://getcomposer.org](Composer) to install your Ope
 Use the following command to create a new Open Restaurant project:
 
 ```
-composer create-project openrestaurant/openrestaurant-project myrestaurant 2.0.0-alpha2
+composer create-project openrestaurant/openrestaurant-project myrestaurant 2.0.0-alpha3
 ```
 
 Composer will pull in the openrestaurant profile and all required dependencies. A docroot directory will be created and the Drupal code will be placed there. You can then install it like you would any other Drupal site.

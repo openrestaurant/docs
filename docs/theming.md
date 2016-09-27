@@ -7,6 +7,9 @@ You can use the Open Restaurant Radix kit as a starting point for your subtheme.
 1. [Drush](http://drush.org)
 2. [Node](https://nodejs.org)
 
+## Compatibility with Open Restaurant
+To make your theme compatible with Open Restaurant, To make your theme compatible with Open Restaurant, add `package: 'Open Restaurant'` to your theme `.info.yml`.
+
 ## Create a subtheme
 
 1. Make sure the Radix theme is enabled: `drush en radix -y; drush config-set system.theme default radix -y`.

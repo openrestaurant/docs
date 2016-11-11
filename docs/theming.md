@@ -1,15 +1,22 @@
-# Using CSS
+How to create a custom Open Restaurant subtheme.
 
-To start customizing your site, you need to create a custom theme. A good starting point is to use the Sizzle theme as your base theme and add your custom styles on top of that:
+You can use the Open Restaurant Radix kit as a starting point for your subtheme. Follow the steps below to create a subtheme.
 
-**Step 1:** Download the starter theme here: https://github.com/openrestaurant/sizzle_custom/archive/master.zip
+### Requirements
 
-**Step 2:** Extract the starter theme to ~/sites/all/themes~ such that your custom theme is at `/sites/all/themes/sizzle_custom`.
+1. [Drush](http://drush.org)
+2. [Node](https://nodejs.org)
 
-**Step 3:** Go to Appearance and under Sizzle Custom, click Enable and set default.
+## Compatibility with Open Restaurant
+To make your theme compatible with Open Restaurant, To make your theme compatible with Open Restaurant, add `package: 'Open Restaurant'` to your theme `.info.yml`.
 
-**Step 4:** You can now add your custom style under `/sites/all/themes/sizzle_custom/css/sizzle_custom.style.css`.
+## Create a subtheme
 
-**Note: Remember to disable cache to see your css changes.**
-
-# Using Sass
+1. Make sure the Radix theme is enabled: `drush en radix -y; drush config-set system.theme default radix -y`.
+2. Create a subtheme using the command: `drush radix "SUBTHEME NAME" --kit=https://github.com/openrestaurant/radix-kit-openrestaurant/archive/master.zip`.
+3. Go to the root of the subtheme: `cd themes/SUBTHEME_NAME`.
+4. Install dependencies: `npm run setup`.
+5. Once dependencies are installed, you can activate the new subtheme: `drush en SUBTHEME_NAME -y; drush config-set system.theme default SUBTHEME_NAME -y`.
+6. Update the `proxy` config in `themes/SUBTHEME_NAME/config.json`. This is the url of your Open Restaurant site. If your site can be reached at `http://myrestaurant.dev`, set `http://myrestaurant.dev` as the `proxy`.
+7. Run `gulp` to watch for changes.
+8. You can now start making changes. `gulp` will watch for your `SCSS` changes and automatically inject the styles at `http://localhost:3000`.

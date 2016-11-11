@@ -1,6 +1,6 @@
 # Documentation for Open Restaurant.
 
-This is the documentation for the [Open Restaurant](http://open.restaurant).
+This is the documentation for [Open Restaurant](http://open.restaurant) 2.x.
 
 [![Documentation Status](https://readthedocs.org/projects/openrestaurant/badge/?version=latest)](http://docs.open.restaurant/en/latest/?badge=latest)
 

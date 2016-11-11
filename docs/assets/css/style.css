@@ -1,0 +1,40 @@
+/**
+ * Custom styles.
+ */
+body.wy-body-for-nav {
+  font-size: 100%;
+}
+
+.wy-nav-content-wrap,
+.wy-nav-content {
+  background: white;
+}
+.wy-side-nav-search,
+.wy-nav-top {
+  background: #1E9AD7;
+}
+.wy-nav-top i {
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .wy-nav-side.shift {
+    width: 70%;
+  }
+  .wy-nav-content-wrap.shift {
+    left: 70%;
+  }
+  .rst-versions {
+    width: 70%;
+  }
+}
+
+code {
+  font-size: 100%;
+  color: black;
+  background: #f5f5f5;
+}
+
+ol li {
+  margin-bottom: 0.5em;
+}

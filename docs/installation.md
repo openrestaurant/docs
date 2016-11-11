@@ -1,22 +1,19 @@
-## Installing Open Restaurant on your server
+# Requirements
 
-**Step 1:** Download and extract Open Restaurant from Drupal.org at [http://drupal.org/project/restaurant](http://drupal.org/project/restaurant).
+**Database**
+MySQL 5.5.3/MariaDB 5.5.20/Percona Server 5.5.8 or higher with PDO and an InnoDB-compatible primary storage engine.
 
-**Step 2:** Point your browser to the Open Restaurant installation.
+**PHP**
+PHP 5.5.9 or higher (PHP 7+ recommended)
 
-**Step 3:** Follow the steps provided by the installation wizard.
+# Installation
 
-Two types of installation are available.
+We highly recommend using [http://getcomposer.org](Composer) to install your Open Restaurant codebase.
 
-1. If you want to select which features to enable for your site, select the **standard** installation (slower but recommended).
-2. The **demo** installation (quicker) will install the site exactly as the demo site at http://dev-demo-openrestaurant.pantheon.io.
+Use the following command to create a new Open Restaurant project:
 
-Note: If your **standard** installation is stuck, try to run it again and uncheck the **Install demo content** checkbox. You can install demo content later when the installation completes (see the section on how to install demo content).
+```
+composer create-project openrestaurant/openrestaurant-project myrestaurant 2.0.0-alpha3
+```
 
-## Installing Open Restaurant on Pantheon.
-
-The quickest way to spin an Open Restaurant website is on Pantheon.
-
-**Step 1:** Visit https://dashboard.pantheon.io/products/openrestaurant/spinup and fill in the form to spin a new Open Restaurant site.
-
-**Step 2:** Once the site is created, you will be redirected to the Pantheon Dashboard. Click on **Visit development site** and follow the steps provided by the wizard to install Open Restaurant.
+Composer will pull in the openrestaurant profile and all required dependencies. A docroot directory will be created and the Drupal code will be placed there. You can then install it like you would any other Drupal site.

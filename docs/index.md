@@ -1,10 +1,6 @@
-Open Restaurant 2.x.x is built on Drupal 8. It comes with a menu management system, a reservation system, a customizable blog, events management and a responsive theme.
+Open Restaurant 2 is built on Drupal 8. It comes with a menu management system, a reservation system, a customizable blog, events management and a responsive theme.
 
-Open Restaurant 2.x.x is under active development and not ready for production.
-
-Want to help us test it? See the installation guide below.
-
-#### [Click here for Open Restaurant 2 documentation](http://docs.open.restaurant).
+Want to help us test it? See the installation guide.
 
 ## Features
 

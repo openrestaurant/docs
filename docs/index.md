@@ -1,6 +1,6 @@
 The Open Restaurant distribution has everything you need to kickstart your restaurant website. It comes with a menu management system, a reservation system, a customizable blog, events management and a responsive theme.
 
-#### [Click here for Open Restaurant 2 documentation](http://docs.open.restaurant/en/2.0.dev1/).
+#### [Click here for Open Restaurant 2 documentation](http://docs.open.restaurant).
 
 ## Features
 

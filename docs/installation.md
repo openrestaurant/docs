@@ -8,7 +8,7 @@ PHP 5.5.9 or higher (PHP 7+ recommended)
 
 # Installation
 
-We highly recommend using [http://getcomposer.org](Composer) to install your Open Restaurant codebase.
+We highly recommend using [Composer](http://getcomposer.org) to install your Open Restaurant codebase.
 
 Use the following command to create a new Open Restaurant project:
 

@@ -19,7 +19,7 @@ composer config repositories.drupal composer https://packages.drupal.org/8
 #### Step 2: Use the following command to create a new Open Restaurant project:
 
 ```
-composer create-project openrestaurant/openrestaurant-project myrestaurant 2.0.0-beta2
+composer create-project openrestaurant/openrestaurant-project myrestaurant
 ```
 
 Composer will pull in the openrestaurant profile and all required dependencies. A docroot directory will be created and the Drupal code will be placed there. You can then install it like you would any other Drupal site.

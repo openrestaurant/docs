@@ -12,7 +12,9 @@ We highly recommend using [Composer](http://getcomposer.org) to install your Ope
 
 #### Step 1: Add packages.drupal.org repository:
 
-`composer config repositories.drupal composer https://packages.drupal.org/8`
+```
+composer config repositories.drupal composer https://packages.drupal.org/8
+```
 
 #### Step 2: Use the following command to create a new Open Restaurant project:
 

@@ -12,7 +12,7 @@ We highly recommend using [Composer](http://getcomposer.org) to install your Ope
 
 #### Step 1: Install composer
 
-See a guide on how to install composer here: https://getcomposer.org/doc/00-intro.md
+See a guide on how to install composer here: [https://getcomposer.org/doc/00-intro.md](https://getcomposer.org/doc/00-intro.md)
 
 #### Step 2: Use the following command to create a new Open Restaurant project:
 

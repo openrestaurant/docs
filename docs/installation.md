@@ -10,11 +10,9 @@ PHP 5.5.9 or higher (PHP 7+ recommended)
 
 We highly recommend using [Composer](http://getcomposer.org) to install your Open Restaurant codebase.
 
-#### Step 1: Add packages.drupal.org repository:
+#### Step 1: Install composer
 
-```
-composer config repositories.drupal composer https://packages.drupal.org/8
-```
+See a guide on how to install composer here: https://getcomposer.org/doc/00-intro.md
 
 #### Step 2: Use the following command to create a new Open Restaurant project:
 

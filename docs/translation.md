@@ -5,6 +5,11 @@ translate content.
 
 ### Step 1: Enable the Translation module.
 
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The Translation module is available as from version `2.2.0`.</p>
+</div>
+
 To get started we need to enable a few modules and add a new language:
 
 Enable the Translation module under Open Restaurant at `/admin/modules`. This will install the required multilingual dependencies
@@ -17,6 +22,8 @@ and set up a few default configuration.
 Once the Translation module is enabled, go to Configuration ⟶ Regional and language ⟶ Languages (`/admin/config/regional/language`) and click on `+ Add language` to add a new language.
 
 <img width="675" alt="Add language" src="https://cloud.githubusercontent.com/assets/124599/22478846/13e04c3a-e805-11e6-9222-500ed5d00dba.png">
+
+Once the language is imported, go to Configuration ⟶ Regional and language ⟶ Content language and click save.
 
 ### Translate the site name and slogan
 

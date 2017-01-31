@@ -7,7 +7,7 @@ translate content.
 
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">The Translation module is available as from version `2.2.0`.</p>
+<p class="last">The Translation module is available as from version <code>2.2.0</code>.</p>
 </div>
 
 To get started we need to enable a few modules and add a new language:

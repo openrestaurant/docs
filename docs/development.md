@@ -1,8 +1,10 @@
 # Development
 
-How to build the development version:
+### How to install a contrib module
 
-1. Make a directory for your site and go to its root: `mkdir openrestaurant-dev && cd $_`.
-2. Clone the openrestaurant repository: `git clone --branch 8.x-2.x https://git.drupal.org/project/openrestaurant.git profiles/openrestaurant`
-3. Using Drush Make, build the profile: `drush make profiles/openrestaurant/build-openrestaurant.make`
-4. Once the build is completed, you can proceed with the [installation](installation).
+1. Go to the root of your Open Restaurant project. The root of the project is one level from the `web` directory.
+2. Use composer to install the module as follows: `composer require drupal/google_analytics`.
+
+Composer will download and place the module inside the `web/modules/contrib` directory.
+
+You can now go to **Extend** to enable the module or use `drush en google_analytics`.
